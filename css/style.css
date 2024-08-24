@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #888090;
+
+}
+.container{
+    margin: 0px auto;
+    max-width: 1100px;
+    overflow: auto;
+}
+
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+#navbaar{
+    background: #333;
+    color: white;
+    overflow: auto;
+    position: sticky;
+    top: 0;
+}
+#navbaar a{
+    color: #fff;
+}
+#navbaar h1{
+    float: left;
+    padding: 15px;
+}
+#navbaar ul{
+    float: right;
+    list-style: none;
+
+}
+#navbaar ul li{
+    float: left;
+   
+}
+#navbaar ul li a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+#navbaar ul li a:hover,#navbaar ul li a.current{
+    background: #444;
+    color: rgb(242, 202, 154);
+}
+
+/* showcase styling */
+.showcase{
+    max-width: 1100px;
+    height: 600px;
+    margin: auto;
+}
+.showcase::before{
+    content: "";
+    background: url(../img/bed.jpg) no-repeat center center/cover;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+}
+
+/* Showcse content style  */
+.showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+   
+ 
+
+}
+/* main heading style size and font family  */
+.showcase-content h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /* main heading span tag styleing  */
+.showcase .lead ,h1 .lead{
+    color: rgb(255, 181, 91);
+    
+}
+/* main content style  */
+.showcase-content p{
+    font-size: 20px;
+    padding: 15px;
+    line-height: 1.5em;
+}
+/* main button style  */
+.showcase-content .btn{
+    display: inline-block;
+    background: #333;
+    padding: 13px 20px;
+    color: #faf6f6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+    background:rgb(163, 127, 82) ;
+    color: #333;
+}
+/* main-box style  */
+.main-box{
+    display: flex;
+}
+
+.building{
+    width: 50%;
+}
+/* building img styling  */
+.building img{
+    height: 300px;
+     width: 100%;
+}
+/* building content styling  */
+.building-content{
+    color: white;
+    padding: 2rem;
+    background: #302e2e;
+    text-align: center;
+    width: 50%;
+    max-height: 300px;
+}
+/* building heading styling  */
+.building-content h1{
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* building content style  */
+.building-content p{
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 14px;
+    padding-bottom: 1rem;
+
+
+} 
+/* building butoon  */
+.building-content .btn-main{
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: #333;
+}
+.btn-main:hover{
+    background:rgb(163, 127, 82) ;
+    color: #333;
+}
+
+.section-main{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    margin: 1rem auto;
+    border: 20px solid #333;
+}
+/* style for box 1-3  */
+.box1, .box2 , .box3{
+   padding: 1rem;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    height: 200px;
+    margin: 5px;
+ 
+  
+}
+/* box heading style  */
+.box1 h3 ,.box2 h3, .box3 h3{
+    font-size: 20px;
+    padding-bottom: 25px;
+    
+    
+}
+.box1 p ,.box2 p, .box3 p{
+    text-align: center;
+    line-height: 1.3em;
+    padding-bottom: 20px;
+}
+.box3{
+    background: rgb(243, 177, 97);
+}
+
+
+ /* footer styling  */
+.main-footer{
+    width: 100%;
+    padding: 1.6rem;
+    background: #333;
+   
+    text-align: center;   
+}
+/* footer content  */
+.main-footer p{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+
+
+/* About page style */
+/* main section style  */
+.main-section{
+    display:flex;
+    
+}
+ .left-side{
+   
+    background: #fff;
+    padding: 1rem;
+    text-align: left;
+}
+
+.left-side h1{
+    padding-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+.right-side{
+    width: 50%;
+    background: #fff;
+    padding: 40px ;
+
+}
+.right-side img{
+   border-radius: 50%;
+    height: 200px;
+
+} 
+/* message box style  */
+.message{
+background: url(../img/hotel2.jpg) no-repeat center center/cover;
+   height: 500px;
+   padding: 4rem;
+   
+   
+}
+.message1, .message2{
+    background: rgb(226, 175, 112);
+   display:flex;
+   margin: 2rem auto;
+   max-width: 1000px;
+}
+.message1 p, .message2 p{
+    padding: 1rem;
+}
+.message1 img, .message2 img{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #000;
+    margin: auto 1rem ;
+    border-radius: 100px;
+    
+}
+@media (max-width : 480px) {
+
+
+    .section-main{
+        width: 100%;
+        flex-direction: column;
+        margin: 0rem auto;
+        border: 2px solid #333;
+    }
+
+
+    .message1 img, .message2 img{
+        width: 100px;
+        height: 100px;
+        border: 2px solid #000;
+        margin: auto 1rem ;
+        border-radius: 100px;
+        
+    }
+}
+
+/* about section  */
+.main-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.left-side{
+   
+    background: #fff;
+    padding: 1rem;
+    text-align: left;
+}
+
+.right-side{
+    width: 100%;
+    height: inherit;
+    background: #fff;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.right-side img{
+   border-radius: 50%;
+    height: 200px;
+
+} 
+
+/* contact 
+ */
+ 
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5rem;
+    max-width: 1000px;
+    margin-bottom: 2rem;
+  
+    
+  
+  }
+  .contact .hero1{
+    width: 80%;
+    height: 500px;
+    background: rgba(2, 2, 11, 0.7);
+    /* border: #ddd 1px dotted; */
+    border-radius: 10px;
+    border: #000 2px solid;
+    box-shadow:  inset 1px 1px 30px  rgb(226, 175, 112);
+  }
+  .hero1 input{
+    background-color: transparent;
+    border: 1px solid #ddd;
+    color: #fff;
+    margin:1rem 1.5rem;
+    padding: 1em;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 14px;
+  
+  }
+  
+  #message{
+    width: 90%;
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #fff;
+    margin: 1rem 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  #btn{
+    background-color: #333;
+    color:#fff;
+    transition: all 0.3s;
+    width: 90%;
+    height: 3rem;
+    font-size: 14px;
+    border-radius: 10px;
+    
+  
+    
+  
+  }
+  
+  #btn:hover {
+    background-color:rgba(255, 255, 255,0.4);
+    color:  rgb(226, 175, 112);
+    width: 90%;
+    height: 3rem;
+    box-shadow:  inset 1px 1px 30px rgb(44, 42, 42);
+    
+  }
+  
